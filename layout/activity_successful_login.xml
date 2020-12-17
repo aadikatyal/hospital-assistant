@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkTeal"
+    tools:context=".SuccessfulLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_blue_logo"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@color/colorDarkTeal"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

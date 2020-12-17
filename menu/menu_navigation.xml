@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp" />
+
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        android:icon="@drawable/ic_pin_drop_black_24dp" />
+
+    <item
+        android:id="@+id/reserve"
+        android:title="Reserve"
+        android:icon="@drawable/ic_assignment_black_24dp" />
+
+
+</menu>

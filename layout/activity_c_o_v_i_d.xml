@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="360dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="COVID - 19 Information"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="447dp"
+        android:layout_height="621dp"
+        android:background="#fd6662"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#333333"
+        android:textColorHighlight="@color/ic_launcher_background"
+        android:textColorLink="@color/colorGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/ic_bacteria_infection_virus"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBeige"
+            app:itemIconTint="@color/colorBlack"
+            app:itemTextColor="@color/colorBlack"
+            app:menu="@menu/menu_navigation" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="333dp"
+            android:layout_height="527dp"
+            android:layout_above="@+id/bottom_navigation"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:scrollbarSize="8dp"
+            android:scrollbars="vertical"
+            android:text="COVID-19 is a highly contagious viral infection. This virus mainly targets the respiratory system while other common symptoms include fevers, fatigue, headache, aches, hives, and sore throat. If it is suspected that you have contracted this illness please isolate and contact your local hospital for medical instruction. Hospital Assistant can aid you in doing so, ensuring that you quickly and safely reach medical help. Please wear a mask at all times to avoid contracting this virus and especially if you are infected. Avoid contact with others and follow your local shelter-in-place rules and suggestions. Medical professionals around the globe are working to create a vaccine for COVID-19 and by self-quarantining you are doing your part. Here at Hospital Assistant we are dedicated to getting the care you or your loved one may need in time to aid them in receiving the appropriate treatment as soon as possible. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@color/colorBlack"
+            android:textSize="19sp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
